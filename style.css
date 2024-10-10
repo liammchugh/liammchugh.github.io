@@ -44,6 +44,8 @@ nav ul li a {
 }
 
 .project-card img {
-    max-width: 40%;
-    height: auto;
+    height: 100px;
+    width: auto; 
+    margin: 0 auto;
+    display: block;
 }

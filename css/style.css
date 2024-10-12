@@ -69,7 +69,7 @@ body {
 }
 
 .content {
-    background-color: #e0f7f4;
+    background-color: #f0fcfb;
     margin-left: 270px;  /* Space for the sidebar */
     padding: 20px;
     flex-grow: 1;
@@ -113,7 +113,7 @@ nav ul li a {
 }
 
 #hero {
-    background-color: #e0f7f4;
+    background-color: #f0fcfb;
     padding: 50px;
     text-align: center;
 }
@@ -123,7 +123,7 @@ nav ul li a {
 }
 
 .project-card {
-    border: 1px solid #ddd;
+    border: 1px solid #f0fcfb;
     margin-bottom: 20px;
     padding: 10px;
     text-align: center;

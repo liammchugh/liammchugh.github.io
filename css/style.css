@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.sidebar h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    padding-left: 20px;
+    margin-top: -10px;
+    z-index: 1;
+}
+
+.dropdown-content li {
+    margin-top: 10px;
+}
+
+.dropdown-content li a {
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown-content li a:hover {
+    color: #ddd;
+}
+
+.content {
+    margin-left: 270px;  /* Space for the sidebar */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.content h2 {
+    font-size: 36px;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+}
+
+#projects {
+    padding: 20px;
+}
+
+.project-card {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.project-card img {
+    height: 40px;
+    width: auto; 
+    margin: 0 auto;
+    display: block;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.image-grid img {
+    width: 100%;           /* Make image take full width of grid cell */
+    height: 200px;          /* Set a fixed height for all images */
+    object-fit: cover;      /* Crop the image if necessary to fit the defined height */
+    border-radius: 8px;
+}

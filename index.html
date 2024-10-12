@@ -7,87 +7,112 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Liam McHugh</h1>
-        <nav>
-            <ul>
-                <li><a href="#leadership">Leadership Experience</a></li>
-                <li><a href="#projects">Engineering Projects</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <header>
+                <h1>Liam McHugh</h1>
+                <nav>
+                    <ul>
+                        <li class="dropdown">
+                            <a href="#leadership">Leadership Experience</a>
+                            <ul class="dropdown-content">
+                                <li><a href="projects/liquid-rocket.html">Liquid-Powered Rocket</a></li>
+                                <li><a href="projects/teaching-fluid-dynamics.html">Fluid Dynamics TA</a></li>
+                                <!-- Add more leadership projects here -->
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#projects">Engineering Projects</a>
+                            <ul class="dropdown-content">
+                                <li><a href="projects/emg-headband.html">EMG Headband</a></li>
+                                <li><a href="projects/active-headphones.html">Active Headphones</a></li>
+                                <li><a href="projects/micro-suture.html">MicroSuture</a></li>
+                                <li><a href="projects/solar-satellite.html">Solar Satellite</a></li>
+                                <!-- Add more engineering projects here -->
+                            </ul>
+                        </li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </aside>
 
-    <section id="leadership">
-        <h2>Leadership Experience</h2>
-        
-        <div class="project-card">
-            <img src="images/liquid-rocket.jpg" alt="Liquid Rocket">
-            <h3>Technical Project Manager: Liquid-Powered Rocket</h3>
-            <p>Led a 30+ member student team to develop and launch a LOX/Ethanol rocket.</p>
-            <a href="projects/STAR.html">Learn More</a>
-        </div>
-        
-        <div class="project-card">
-            <img src="images/teaching-fluids.jpg" alt="Teaching Fluid Dynamics">
-            <h3>Teaching Assistant: Fluid Dynamics</h3>
-            <p>Designed weekly recitations applying fluid dynamics principles to real-world applications.</p>
-            <a href="projects/teaching-fluid-dynamics.html">Learn More</a>
-        </div>
+        <section class="content">
+            <h2>Welcome to My Portfolio</h2>
+            <p>This is where I showcase my leadership experiences and engineering projects.</p>
 
-        <!-- Add more leadership experiences as needed -->
-    </section>
+            <section id="about">
+                <h2>About Me</h2>
+                <p>I’m Liam, an engineer exploring advanced device engineering and machine learning / signal processing technologies.</p>
+                <p>Hopefully these projects help invigorate my peers & community to maintain curiosity and push the boundaries of our capabilities.</p>
+            </section>
 
-    <section id="projects">
-        <h2>Engineering Projects</h2>
-    
-        <div class="project-card">
-            <img src="images/active-headphones.jpg" alt="Active Headphones">
-            <h3>Active Headphones for Selective Source Isolation</h3>
-            <p>Custom-built headphones with voice selectivity for focused learning.</p>
-            <a href="projects/active-headphones.html">Learn More</a>
-        </div>
-    
-        <div class="project-card">
-            <img src="images/emg-headband.jpg" alt="EMG Headband">
-            <h3>EMG-Headband Instrument Effects Modulator</h3>
-            <p>Developed a wireless headband device for neuro-controlled guitar pedal effects modulation.</p>
-            <a href="projects/emg-headband.html">Learn More</a>
-        </div>
-        
-        <div class="project-card">
-            <img src="images/micro-suture.jpg" alt="MicroSurgical Suture">
-            <h3>MicroSurgical Suture for Targeted Neurovascular Hemostasis</h3>
-            <p>Autonomously-enabled microgripping suture with integrated flow sensor for neurovascular and ophthalmic surgeries.</p>
-            <a href="projects/micro-suture.html">Learn More</a>
-        </div>
+            <section id="leadership">
+                <h2>Leadership Experience</h2>
+                
+                <div class="project-card">
+                    <img src="images/liquid-rocket.jpg" alt="Liquid Rocket">
+                    <h3>Technical Project Manager: Liquid-Powered Rocket</h3>
+                    <p>Led a 30+ member student team to develop and launch a LOX/Ethanol rocket.</p>
+                    <a href="projects/STAR.html">Learn More</a>
+                </div>
+                
+                <div class="project-card">
+                    <img src="images/teaching-fluids.jpg" alt="Teaching Fluid Dynamics">
+                    <h3>Teaching Assistant: Fluid Dynamics</h3>
+                    <p>Designed weekly recitations applying fluid dynamics principles to real-world applications.</p>
+                    <a href="projects/teaching-fluid-dynamics.html">Learn More</a>
+                </div>
 
-        <div class="project-card">
-            <img src="images/satellite.jpg" alt="Solar-Concentrating Satellite">
-            <h3>Parabolic Solar-Harvesting Satellite</h3>
-            <p>Satellite prototype with reaction-wheel directional control for space solar and MASER alignment</p>
-            <a href="projects/solar-satellite.html">Learn More</a>
-        </div>
+                <!-- Add more leadership experiences as needed -->
+            </section>
 
-        <div class="project-card">
-            <img src="images/carbuild.jpg" alt="FrankEngineStein: Custom Mustang Build">
-            <h3>FrankEngineStein: Custom Mustang Build</h3>
-            <p>Converted a 2006 Mustang into a budget high-performance racecar with junkyard engine build & custom powertrain, gauge cluster, and haptic driving feedback.</p>
-            <a href="projects/track-car-build.html">Learn More</a>
-        </div>
-        
-    </section>
-    
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I’m Liam, an engineer exploring advanced device engineering and machine learning / signal processing technologies.</p>
-        <p>Hopefully these projects help invigorate my peers & community to maintain curiosity and push the boundaries of our capabilities.</p>
-    </section>
+            <section id="projects">
+                <h2>Engineering Projects</h2>
+            
+                <div class="project-card">
+                    <img src="images/active-headphones.jpg" alt="Active Headphones">
+                    <h3>Active Headphones for Selective Source Isolation</h3>
+                    <p>Custom-built headphones with voice selectivity for focused learning.</p>
+                    <a href="projects/active-headphones.html">Learn More</a>
+                </div>
+            
+                <div class="project-card">
+                    <img src="images/emg-headband.jpg" alt="EMG Headband">
+                    <h3>EMG-Headband Instrument Effects Modulator</h3>
+                    <p>Developed a wireless headband device for neuro-controlled guitar pedal effects modulation.</p>
+                    <a href="projects/emg-headband.html">Learn More</a>
+                </div>
+                
+                <div class="project-card">
+                    <img src="images/micro-suture.jpg" alt="MicroSurgical Suture">
+                    <h3>MicroSurgical Suture for Targeted Neurovascular Hemostasis</h3>
+                    <p>Autonomously-enabled microgripping suture with integrated flow sensor for neurovascular and ophthalmic surgeries.</p>
+                    <a href="projects/micro-suture.html">Learn More</a>
+                </div>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:liam.mchugh@columbia.edu">liam.mchugh@columbia.edu</a></p>
-    </section>
+                <div class="project-card">
+                    <img src="images/satellite.jpg" alt="Solar-Concentrating Satellite">
+                    <h3>Parabolic Solar-Harvesting Satellite</h3>
+                    <p>Satellite prototype with reaction-wheel directional control for space solar and MASER alignment</p>
+                    <a href="projects/solar-satellite.html">Learn More</a>
+                </div>
+
+                <div class="project-card">
+                    <img src="images/carbuild.jpg" alt="FrankEngineStein: Custom Mustang Build">
+                    <h3>FrankEngineStein: Custom Mustang Build</h3>
+                    <p>Converted a 2006 Mustang into a budget high-performance racecar with junkyard engine build & custom powertrain, gauge cluster, and haptic driving feedback.</p>
+                    <a href="projects/track-car-build.html">Learn More</a>
+                </div>
+                
+            </section>
+            
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <p>Email: <a href="mailto:liam.mchugh@columbia.edu">liam.mchugh@columbia.edu</a></p>
+            </section>
+        </section>
+    </div>
 </body>
 </html>

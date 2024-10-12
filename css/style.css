@@ -30,26 +30,28 @@ body {
 }
 
 .sidebar nav ul li {
-    margin-bottom: 10px;
+    margin-bottom: 20px;  /* Ensure space between topics */
 }
 
 .sidebar nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
+    display: block;  /* Ensures items are displayed on separate lines */
 }
 
 .dropdown-content {
     display: none;
-    position: absolute;
+    position: relative;  /* Position relative to the sidebar */
     background-color: #444;
     padding-left: 20px;
-    margin-top: -10px;
+    margin-top: 10px;
     z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    transition-delay: 0.3s;  /* Adds a delay to make dropdowns easier to open */
 }
 
 .dropdown-content li {
@@ -59,6 +61,7 @@ body {
 .dropdown-content li a {
     color: white;
     text-decoration: none;
+    display: block;  /* Ensures sub-items are also line-by-line */
 }
 
 .dropdown-content li a:hover {
@@ -109,7 +112,7 @@ nav ul li a {
 }
 
 #hero {
-    background-color: #f4f4f4;
+    background-color: #e0f7f4;
     padding: 50px;
     text-align: center;
 }
@@ -126,7 +129,7 @@ nav ul li a {
 }
 
 .project-card img {
-    height: 40px;
+    height: 85px;
     width: auto; 
     margin: 0 auto;
     display: block;

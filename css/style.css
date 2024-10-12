@@ -69,6 +69,7 @@ body {
 }
 
 .content {
+    background-color: #e0f7f4;
     margin-left: 270px;  /* Space for the sidebar */
     padding: 20px;
     flex-grow: 1;

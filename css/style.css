@@ -70,7 +70,7 @@ body {
 
 .content {
     background-color: #f0fcfb;
-    margin-left: 270px;  /* Space for the sidebar */
+    margin-left: 250px;  /* Space for the sidebar */
     padding: 20px;
     flex-grow: 1;
 }
@@ -120,6 +120,7 @@ nav ul li a {
 
 #projects {
     padding: 20px;
+    background-color: #f0fcfb;
 }
 
 .project-card {

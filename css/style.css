@@ -51,7 +51,7 @@ body {
 
 .dropdown:hover .dropdown-content {
     display: block;
-    transition-delay: 0.3s;  /* Adds a delay to make dropdowns easier to open */
+    transition-delay: 0.65s;  /* Adds a delay to make dropdowns easier to open */
 }
 
 .dropdown-content li {
@@ -77,6 +77,8 @@ body {
 
 .content h2 {
     font-size: 36px;
+    background-color: #f0fcfb;
+
 }
 
 .content p {
@@ -125,13 +127,14 @@ nav ul li a {
 
 .project-card {
     border: 1px solid #f0fcfb;
+    background-color: #f0fcfb;
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 0px;
     text-align: center;
 }
 
 .project-card img {
-    height: 85px;
+    height: 100px;
     width: auto; 
     margin: 0 auto;
     display: block;

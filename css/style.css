@@ -173,3 +173,17 @@ nav ul li a {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.home-link {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.home-link:hover {
+    color: #666;
+}

@@ -167,3 +167,9 @@ nav ul li a {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     background-color: transparent; /* Adjust this if your website has a different background color */
 }
+
+.subpage-content {
+    padding: 0 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}

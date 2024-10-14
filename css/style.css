@@ -1,8 +1,9 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     background-color: #F4F2E8;
     margin: 0;
     padding: 0;
+    color: #333;
 }
 
 .container {
@@ -26,6 +27,7 @@ body {
 }
 
 .sidebar nav ul {
+    font-size: 26px;
     list-style-type: none;
     padding: 0;
 }
@@ -37,7 +39,7 @@ body {
 .sidebar nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 26px;
     display: block;  /* Ensures items are displayed on separate lines */
 }
 
@@ -77,13 +79,13 @@ body {
 }
 
 .content h2 {
-    font-size: 36px;
+    font-size: 38px;
     background-color: transparent;
 
 }
 
 .content p {
-    font-size: 18px;
+    font-size: 26px;
     line-height: 1.6;
 }
 
@@ -151,4 +153,17 @@ nav ul li a {
     height: 200px;          /* Set a fixed height for all images */
     object-fit: cover;      /* Crop the image if necessary to fit the defined height */
     border-radius: 8px;
+}
+
+.schematic-container {
+    max-width: 100%;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.schematic-image {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: transparent; /* Adjust this if your website has a different background color */
 }

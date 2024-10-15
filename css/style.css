@@ -77,6 +77,13 @@ body {
     flex-grow: 1;
 }
 
+.content h1 {
+    font-size: 54px;
+    color: #333;
+    font-family: 'Quicksand', sans-serif;
+    background-color: transparent;
+}
+
 .content h2 {
     font-size: 38px;
     background-color: transparent;
@@ -146,8 +153,16 @@ nav ul li a {
     display: block;
 }
 
-.project-card imgbig {
-    height: 160px;
+.research-card {
+    border: 1.5px solid #444;
+    background-color: transparent;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.research-card img {
+    height: 200px;
     width: auto; 
     margin: 0 auto;
     display: block;

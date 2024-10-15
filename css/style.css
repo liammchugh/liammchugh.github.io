@@ -20,6 +20,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    background-color: transparent;
 }
 
 .menu-items a {
@@ -28,15 +29,12 @@ body {
     font-size: 18px;
     margin-left: 20px;
     transition: color 0.3s ease;
+    background-color: transparent;
 }
 
 .menu-items a:hover {
     color: #ddd;
-}
-
-.content {
-    margin-top: 60px; /* Adjust based on menu height */
-    padding: 20px;
+    background-color: transparent;
 }
 
 .dropdown.active .dropdown-content {

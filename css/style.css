@@ -73,7 +73,8 @@ body {
 
 .content {
     background-color: transparent;
-    margin-left: 250px;  /* Space for the sidebar */
+    margin-left: 125px;
+    margin-right: 125px;
     padding: 20px;
     flex-grow: 1;
 }

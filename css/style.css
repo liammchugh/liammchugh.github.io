@@ -6,55 +6,37 @@ body {
     color: #333;
 }
 
-.container {
-    display: flex;
-    height: 100vh;
-}
-
-.sidebar {
-    width: 250px;
-    background-color: #333;
-    color: white;
-    padding: 20px;
+.top-menu {
     position: fixed;
-    height: 100%;
-    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    padding: 10px 20px;
+    z-index: 1000;
 }
 
-.sidebar h1 {
-    font-size: 22px;
-    margin-bottom: 20px;
+.menu-items {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.sidebar nav ul {
-    font-size: 24px;
-    list-style-type: none;
-    padding: 0;
-}
-
-.sidebar nav ul li {
-    margin-bottom: 20px;
-    position: relative;  /* Add this line */
-}
-
-.sidebar nav ul li a {
+.menu-items a {
     color: white;
     text-decoration: none;
-    font-size: 26px;
-    display: flex;  /* Change to flex */
-    align-items: center;  /* Add this line */
-    justify-content: space-between;  /* Add this line */
+    font-size: 18px;
+    margin-left: 20px;
+    transition: color 0.3s ease;
 }
 
-.dropdown > a::after {
-    content: '\25B6';  /* Right-pointing triangle */
-    font-size: 0.8em;
-    transition: transform 0.3s ease;
+.menu-items a:hover {
+    color: #ddd;
 }
 
-.dropdown.active > a::after {
-    content: '\25BC';  /* Down-pointing triangle */
-    transform: rotate(0deg);
+.content {
+    margin-top: 60px; /* Adjust based on menu height */
+    padding: 20px;
 }
 
 .dropdown.active .dropdown-content {

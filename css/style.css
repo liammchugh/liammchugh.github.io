@@ -90,6 +90,11 @@ body {
 
 }
 
+.content h3 {
+    font-size: 26px;
+    background-color: transparent;
+}
+
 .content p {
     font-size: 22px;
     line-height: 1.6;

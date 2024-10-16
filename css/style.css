@@ -149,6 +149,12 @@ nav ul li a {
     background-color: transparent;
 }
 
+#contact {
+    padding: 20px;
+    background-color: transparent;
+}
+
+
 .project-card {
     border: 1.5px solid #444;
     background-color: transparent;

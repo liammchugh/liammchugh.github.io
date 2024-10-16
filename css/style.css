@@ -129,7 +129,7 @@ nav ul li a {
     text-align: center;
 }
 
-#projects {
+#about {
     padding: 20px;
     background-color: transparent;
 }
@@ -140,6 +140,11 @@ nav ul li a {
 }
 
 #academia {
+    padding: 20px;
+    background-color: transparent;
+}
+
+#projects {
     padding: 20px;
     background-color: transparent;
 }

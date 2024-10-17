@@ -33,7 +33,7 @@ body {
 }
 
 .menu-items a:hover {
-    color: #ddd;
+    color: #777;
     background-color: transparent;
 }
 
@@ -151,7 +151,6 @@ nav ul li a {
 }
 
 #contact {
-    padding: 20px;
     background-color: transparent;
 }
 

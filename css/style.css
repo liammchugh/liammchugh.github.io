@@ -165,11 +165,31 @@ nav ul li a {
     text-align: left; /* Align text to the left */
 }
 
+.project-card h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.project-card-content {
+    display: flex;
+    align-items: center;
+}
+
 .project-card img {
     height: 150px;
     width: auto; 
     margin-right: 20px; /* Add some space between the image and the text */
     display: block;
+}
+
+.project-card p {
+    flex-grow: 1;
+}
+
+.project-card a {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
 }
 
 .research-card {

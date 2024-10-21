@@ -154,32 +154,33 @@ nav ul li a {
     background-color: transparent;
 }
 
-
 .project-card {
     display: flex;
-    align-items: center;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center;    /* Center items horizontally */
     border: 1.5px solid #444;
     background-color: transparent;
     margin-bottom: 20px;
     padding: 10px;
-    text-align: left; /* Align text to the left */
+    text-align: center;     /* Center text inside the card */
 }
 
 .project-card h3 {
-    text-align: center;
     margin-bottom: 10px;
 }
 
 .project-card-content {
     display: flex;
+    flex-direction: row;    /* Arrange children in a row */
     align-items: center;
+    width: 100%;            /* Ensure content spans the full width */
+    text-align: left;       /* Align text to the left within content */
 }
 
 .project-card img {
     height: 150px;
     width: auto; 
-    margin-right: 20px; /* Add some space between the image and the text */
-    display: block;
+    margin-right: 20px;     /* Space between the image and text */
 }
 
 .project-card p {
@@ -190,6 +191,7 @@ nav ul li a {
     display: block;
     margin-top: 10px;
     text-align: right;
+    width: 100%;            /* Ensure the link spans the full width */
 }
 
 .research-card {

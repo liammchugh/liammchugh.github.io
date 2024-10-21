@@ -89,7 +89,7 @@ body {
 .content h2 {
     font-size: 38px;
     background-color: transparent;
-    padding: 0 20px;
+    /* padding: 0 20px; */
 }
 
 .content h3 {

@@ -175,6 +175,8 @@ nav ul li a {
     align-items: center;
     width: 100%;            /* Ensure content spans the full width */
     text-align: left;       /* Align text to the left within content */
+    padding-left: 15px;          /* Add padding around the content */
+    padding-right: 15px;
 }
 
 .project-card img {

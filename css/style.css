@@ -183,6 +183,7 @@ nav ul li a {
     height: 150px;
     width: auto; 
     margin-right: 20px;     /* Space between the image and text */
+    margin-top: -15px;
 }
 
 .project-card p {

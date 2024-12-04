@@ -160,7 +160,8 @@ nav ul li a {
     align-items: flex-start; /* Align items to the top */
     border: 1.5px solid #444;
     background-color: #F4F2E8; /* Optional: Set a light background color */
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     padding: 20px;
     text-align: left;
     gap: 20px; /* Space between the image and content */
@@ -168,7 +169,7 @@ nav ul li a {
 
 /* Style for the image */
 .project-card img {
-    flex-shrink: 0; /* Prevent the image from shrinking */
+    flex-shrink: 1; /* Allow the image to shrink */
     height: auto;
     max-height: 180px; /* Limit the height of the image */
     width: auto; /* Keep the aspect ratio */

@@ -204,7 +204,6 @@ nav ul li a {
 /* Style for the link */
 .project-card-content a {
     text-decoration: none;
-    color: #007BFF; /* Highlight link */
     font-weight: bold;
     margin-top: auto; /* Push the link to the bottom */
     align-self: flex-start; /* Align link to the left */

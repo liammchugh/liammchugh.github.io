@@ -153,46 +153,60 @@ nav ul li a {
 #contact {
     background-color: transparent;
 }
+
 .project-card {
     display: flex;
-    align-items: flex-start; /* Align items at the top */
+    flex-direction: row; /* Ensure horizontal layout */
+    align-items: flex-start; /* Align items to the top */
     border: 1.5px solid #444;
-    background-color: transparent;
+    background-color: #F4F2E8; /* Optional: Set a light background color */
     margin-bottom: 20px;
-    padding: 10px;
-    text-align: left; /* Keep text aligned to the left */
+    padding: 20px;
+    text-align: left;
+    gap: 20px; /* Space between the image and content */
 }
 
 /* Style for the image */
 .project-card img {
-    height: 150px;
-    width: auto;
-    margin-right: 25px; /* Space between image and text */
-    display: block;
+    flex-shrink: 0; /* Prevent the image from shrinking */
+    height: auto;
+    max-height: 180px; /* Limit the height of the image */
+    width: auto; /* Keep the aspect ratio */
+    object-fit: cover; /* Ensure proper cropping if necessary */
+    margin-right: 0; /* Avoid extra margins */
 }
 
 /* Content container for heading and text */
 .project-card-content {
-    flex-grow: 1; /* Allow text to take remaining space */
+    display: flex;
+    flex-direction: column; /* Stack the heading and text */
+    justify-content: flex-start; /* Align content to the top */
+    flex-grow: 1; /* Allow content to take up remaining space */
 }
 
 /* Style for the heading */
-.project-card h3 {
-    margin: 0 0 10px 0; /* Add space below heading */
-    font-size: 1.2em;
+.project-card-content h3 {
+    margin: 0 0 10px 0; /* Add space below the heading */
+    font-size: 1.5em; /* Larger font size for prominence */
+    font-weight: bold;
+    color: #333;
 }
 
 /* Style for the text */
-.project-card p {
-    margin: 0 0 10px 0; /* Add space below text */
+.project-card-content p {
+    margin: 0 0 10px 0; /* Space below paragraph */
+    font-size: 1em;
+    line-height: 1.6;
+    color: #444;
 }
 
 /* Style for the link */
-.project-card a {
+.project-card-content a {
     text-decoration: none;
-    color: #007BFF; /* Link color */
+    color: #007BFF; /* Highlight link */
     font-weight: bold;
-    margin-top: auto; /* Push link to the bottom */
+    margin-top: auto; /* Push the link to the bottom */
+    align-self: flex-start; /* Align link to the left */
 }
 
 .research-card {

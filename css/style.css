@@ -315,3 +315,106 @@ nav ul li a {
     height: 100%;
     border: none;
 }
+
+/* General Responsive Adjustments */
+@media (max-width: 768px) {
+
+    .content {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 10px;
+    }
+
+    .content h1 {
+        font-size: 36px;
+        padding-left: 10px;
+    }
+
+    .content h2 {
+        font-size: 28px;
+    }
+
+    .content h3 {
+        font-size: 22px;
+    }
+
+    .menu-items {
+        justify-content: center;
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+
+    .menu-items a {
+        font-size: 16px;
+        margin: 5px;
+    }
+
+    .top-menu {
+        position: static;
+        padding: 10px 0;
+        background-color: rgba(244, 242, 232, 0.95);
+    }
+
+    .project-card {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .project-card img {
+        max-height: 200px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .image-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .image-grid img {
+        width: 100%;
+        height: auto;
+    }
+
+    .research-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .video-grid iframe {
+        height: 250px;
+        max-width: 100%;
+    }
+
+    .pdf-container {
+        height: 400px;
+    }
+}
+
+/* Smaller Mobile Devices Adjustments */
+@media (max-width: 480px) {
+
+    .content h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .content h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .menu-items a {
+        font-size: 14px;
+        margin: 3px;
+    }
+
+    .project-card-content p, 
+    .content p {
+        font-size: 16px;
+    }
+
+    .project-card-content h3 {
+        font-size: 20px;
+    }
+}
